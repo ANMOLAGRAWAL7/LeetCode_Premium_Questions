@@ -4,7 +4,7 @@ If there are multiple suitable places for insertion, you may choose any place to
 
 If the list is empty (i.e., the given node is null), you should create a new single circular list and return the reference to that single node. Otherwise, you should return the originally given node*/
 /*
-Case 1). The value of new node sits between the minimal and maximal values of the current list. As a result, it should be inserted within the list
+Case 1). The value of new node sits between the minimal and maximal values of the current list. As a result, it should be inserted within the list.
 Case 2). The value of new node goes beyond the minimal and maximal values of the current list, either less than the minimal value or greater than the maximal value. In either case, the new node should be added right after the tail node (i.e. the node with the maximal value of the list).
 Case 3). Finally, there is one case that does not fall into any of the above two cases. This is the case where the list contains uniform values.
 */
